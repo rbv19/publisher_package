@@ -5,6 +5,17 @@
 
 #include <sstream>
 
+#include "publisher_package/topic_name.h"
+
+#ifndef TOPIC_NAME_H
+#define TOPIC_NAME_H
+
+#include <string>
+
+std::string topic_name("new_topic_name");
+
+#endif
+
 int main(int argc, char **argv)
 {
 
